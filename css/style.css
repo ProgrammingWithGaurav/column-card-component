@@ -11,11 +11,13 @@ body {
 
 .container {
     display: flex;
+    box-shadow: 0 0 10px 2px rgb(156, 156, 156);
+    border-radius: 9px;
 }
 
 .card {
     width: 300px;
-    height: 70vh;
+    height: 400px;
 }
 
 .card1 {
@@ -73,9 +75,26 @@ body {
     color: hsla(179, 100%, 13%, 1);
 }
 
-.card button:hover, button:active {
+.card button:hover,
+button:active {
     background-color: transparent;
     color: white;
     border: 3px solid white;
     padding: 11px 21px;
+}
+
+
+/* Make cards responive for mobile */
+@media screen and (max-width: 925px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card1 {
+        border-radius: 9px 9px 0px 0px;
+    }
+
+    .card3 {
+        border-radius: 0px 0px 9px 9px;
+    }
 }
