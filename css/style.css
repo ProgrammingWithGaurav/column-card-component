@@ -98,3 +98,9 @@ button:active {
         border-radius: 0px 0px 9px 9px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: 80vw;
+    }
+}
