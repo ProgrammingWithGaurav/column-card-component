@@ -13,6 +13,8 @@ body {
     display: flex;
     box-shadow: 0 0 10px 2px rgb(156, 156, 156);
     border-radius: 9px;
+    position: absolute;
+    top: 0;
 }
 
 .card {
