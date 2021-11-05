@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Lexend+Deca:wght@500&family=Red+Hat+Display:wght@700&family=Roboto:ital@1&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 70vh;
+}
+
+.card1 {
+    background: hsla(30, 77%, 52%, 1);
+    border-radius: 9px 0px 0px 9px;
+}
+
+.card2 {
+    background: hsla(185, 98%, 23%, 1);
+    border-radius: 0px;
+}
+
+.card3 {
+    background: hsla(179, 100%, 13%, 1);
+    border-radius: 0px 9px 9px 0px;
+}
+
+.card .logo {
+    margin: 30px 25px;
+}
+
+.card .title {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    width: 100%;
 }
